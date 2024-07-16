@@ -5,11 +5,10 @@ import (
 	"fmt"
 )
 
-// var ErrFoo = errors.New("error")
+var ErrFoo = errors.New("error")
 
 func returnsErr() error {
-	return errors.New("error")
-	// return ErrFoo
+	return ErrFoo
 }
 
 func main() {
