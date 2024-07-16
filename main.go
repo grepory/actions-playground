@@ -1,4 +1,4 @@
-package actions_playground
+package actionsplayground
 
 import "fmt"
 
